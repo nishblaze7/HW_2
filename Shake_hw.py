@@ -10,6 +10,7 @@ from nltk.corpus import stopwords
 from nltk import FreqDist
 st.set_option('deprecation.showPyplotGlobalUse', False)
 nltk.download('stopwords')
+import string
 
 
 st.markdown('''

@@ -36,7 +36,7 @@ min_count = st.sidebar.slider("Minimum Word Count", min_value=5, max_value=100, 
 
 
 ## Select text files
-image = st.selectbox("Choose a text file", books.keys())
+image = st.selectbox("Please choose a text file for the application to run", books.keys())
 
 ## Get the value
 image = books.get(image)

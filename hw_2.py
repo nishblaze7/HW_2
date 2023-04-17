@@ -11,6 +11,9 @@ from nltk import FreqDist
 from nltk.corpus import PlaintextCorpusReader
 st.set_option('deprecation.showPyplotGlobalUse', False)
 import string
+import nltk
+nltk.download('stopwords')
+
 
 
 

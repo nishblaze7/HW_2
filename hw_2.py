@@ -8,14 +8,8 @@ from wordcloud import WordCloud, STOPWORDS
 import glob, nltk, os, re
 from nltk.corpus import stopwords 
 from nltk import FreqDist
-from nltk.corpus import PlaintextCorpusReader
 st.set_option('deprecation.showPyplotGlobalUse', False)
-import string
-import nltk
 nltk.download('stopwords')
-
-
-
 
 
 st.markdown('''
